@@ -1,0 +1,27 @@
+.team{
+    padding:8rem 0;
+    z-index: 99;
+    position: relative;
+    left: 0;
+    right: 0;
+}
+.team .heading{
+    font-size: 4.5rem;
+    color: white;
+    text-align: center;
+}
+
+.team .content{
+    font-size: 1.3rem;
+    color: rgba(255, 255, 255, 0.7);
+    text-align: center;
+    padding: 1rem 0;
+    max-width: 770px;
+}
+
+.team .platform-container{
+    width: 100%;
+    justify-content: space-between;
+    display: flex;
+    padding: 7rem 0;
+}

@@ -1,0 +1,14 @@
+.client-card-content{
+    padding-inline: 2rem;
+    z-index: 99;
+}
+
+.client-card-content .heading{
+    font-size: 1.5rem;
+    font-weight: 600;
+    padding: 1rem 0;
+}
+
+.client-card-content .content{
+    color: rgba(255, 255, 255, 0.8);
+}

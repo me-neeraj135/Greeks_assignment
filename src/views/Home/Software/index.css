@@ -1,0 +1,27 @@
+.software{
+    padding-inline: 5rem;
+    z-index: 99;
+    background-color: #16181c;
+    position: relative;
+    left: 0;
+    right: 0;
+}
+.software .heading{
+    font-size: 4.5rem;
+    color: white;
+    text-align: center;
+}
+
+.software .content{
+    font-size: 1.3rem;
+    color: rgba(255, 255, 255, 0.7);
+    text-align: center;
+    padding: 1rem 0;
+}
+
+.software .platform-container{
+    width: 100%;
+    justify-content: space-between;
+    display: flex;
+    padding: 7rem 0;
+}

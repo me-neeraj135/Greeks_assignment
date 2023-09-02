@@ -1,0 +1,74 @@
+.footer-container {
+  /* position: fixed; */
+  bottom: 0;
+}
+
+.footer {
+  padding: 10rem 0;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  max-width: 45rem;
+}
+.footer .h1 {
+  font-size: 3rem;
+  text-align: center;
+}
+.footer .h4 {
+  font-size: 1.2rem;
+  text-align: center;
+  font-weight: 300;
+  padding: 1.5rem 0;
+}
+
+.footer button {
+  border: none;
+  font-size: 1.3rem;
+  font-weight: 300;
+  padding: 12px 2.5rem;
+  border-radius: 30px;
+  background-color: rgb(255, 83, 0);
+  color: white;
+  transition: background-color, color, 500ms;
+}
+
+.footer button:hover {
+  color: rgb(255, 83, 0);
+  background-color: white;
+}
+
+.footer-info {
+  color: white;
+  justify-content: space-between;
+  padding: 3rem;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.footer-info button {
+  white-space: nowrap;
+  border: none;
+  font-size: 1.3rem;
+  font-weight: 300;
+  padding: 12px 2.5rem;
+  border-radius: 30px;
+  background-color: transparent;
+  border: 1px solid white;
+  color: white;
+  transition: background-color, color, 500ms;
+}
+
+.footer-info button:hover {
+  color: transparent;
+  background-color: white;
+}
+
+.footer-info .route {
+  font-size: 16px;
+}
+
+.footer-info .address {
+  max-width: 18rem;
+}

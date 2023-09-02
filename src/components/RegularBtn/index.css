@@ -1,0 +1,17 @@
+.regularBtn{
+    display: flex;
+    align-items: center;
+    font-size: 1.2rem;
+    color: white;
+    border: 2px solid white;
+    width: fit-content;
+    padding: 8px 0;
+    min-width: 16rem;
+    border-radius: 25px;
+    justify-content: center;
+}
+.regularBtn button{
+    border: none;
+    background-color: transparent;
+    color: white;
+}

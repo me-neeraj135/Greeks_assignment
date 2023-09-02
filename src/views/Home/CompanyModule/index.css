@@ -1,0 +1,49 @@
+.company-module{
+    z-index: 99;
+    position: relative;
+    left: 0;
+    right: 0;
+    max-width: 1290px;
+    margin: 0 auto;
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+.company-module .title{
+    font-size: 3.5rem;
+}
+
+.company-module .heading{
+    font-size: 2rem;
+    color: rgba(255, 255, 255, 0.5);
+}
+.company-module .body{
+    font-size: 20px;
+    line-height: 1.5;
+    padding-bottom: 1rem;
+}
+.company-module .info{
+    padding: 0 20px;
+    text-align: left;
+    margin: 0 auto;
+    max-width: 470px;
+}
+.CompanyModule-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.company-module .info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+   text-align: center;
+}
+.CompanyModule-img img{
+    display: block;
+    max-width: 100%;
+    margin: 0 auto;
+    border: 0;
+    vertical-align: middle;
+}
